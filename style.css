@@ -36,7 +36,7 @@ body {
 .input-city {
     border: none;
     outline: none;
-    width: 80%;
+    width: 100%;
     padding: 1rem;
     border-radius: 2rem;
     font-size: 2rem;

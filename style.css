@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: cover;
+}
+
+.container {
+    background-color: #00000f96;
+    width: 90%;
+    max-width: 43rem;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 5rem;
+}
+
+.input-glass {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-city {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    background-color: #7c7c7c2b;
+    color: #fff;
+}
+
+.search {
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 5rem;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in;
+}
+
+.search:hover {
+    opacity: 0.3;
+}
+
+.glass {
+    height: 2.7rem;
+}
+
+.box {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title-city {
+    font-size: 2.5rem;
+}
+
+.temp {
+    color: #12858d;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.description {
+    color: #eb6e34;
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+}
+
+.humidity {
+    font-size: 1.8rem;
+}
+
+.icon{
+    width: 4rem;
+}
+
+.icon-description{
+    display: flex;
+    align-items: center;
+    
+}

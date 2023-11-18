@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Previsão do tempo 🌦️</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="input-glass">
+        <input
+          class="input-city"
+          type="text"
+          placeholder="Digite o nome da cidade..."
+        />
+        <button onclick="handlerClick()" class="search">
+          <img
+            class="glass"
+            src="https://cdn-icons-png.flaticon.com/512/2015/2015046.png"
+            alt="lupa"
+          />
+        </button>
+      </div>
+
+      <div class="box">
+        <h2 class="title-city">Previsão do Tempo</h2>
+        <p class="temp">Temperatura</p>
+
+        <div class="icon-description">
+          <img
+            src="https://openweathermap.org/img/wn/04n.png"
+            class="icon"
+            alt="icon"
+          />
+          <p class="description">Clima</p>
+        </div>
+        <p class="humidity">Umidade</p>
+      </div>
+    </div>
+  </body>
+</html>
